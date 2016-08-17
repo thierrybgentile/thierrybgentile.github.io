@@ -1,7 +1,7 @@
----
----
-{% include_relative _vendor/jquery-3.1.0.min.js %}
+var menuButton = document.getElementById('menu-button');
+var menu = document.querySelector('nav')
+menuButton.addEventListener("click", toggleMenu);
 
-$(function() {
-  //Code DON'T FORGET TO UNCOMMENT IN HTML
-});
+function toggleMenu() {
+  menu.classList.toggle('hide');
+}

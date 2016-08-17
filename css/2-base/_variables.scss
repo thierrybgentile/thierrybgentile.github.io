@@ -24,7 +24,7 @@ $black: #1A1C23; //(base-font-color)
 $white: #F1ECD7; //(base-background-color)
 $orange: #E8C051; //(base-border-color)
 $pink: #D89CA9;
-
+$tr-black: transparentize($black, .1);
 // Font Colors
 $base-font-color: $black;
 $action-color: $blue;

@@ -1,0 +1,41 @@
+#menu-button {
+  $menu-button-size: 2em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  @include size($menu-button-size);
+  border-bottom: $menu-button-size solid $tr-black;
+	border-right: $menu-button-size solid transparent;
+  color: $white;
+  font-size: 2em;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: $tr-black;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  hr {
+    border-bottom-color: $white;
+    width: 4em;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.nav-link {
+  color: inherit;
+  font-weight: 600;
+  font-size: modular-scale(2);
+}
