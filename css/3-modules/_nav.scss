@@ -1,14 +1,27 @@
 #menu-button {
-  $menu-button-size: 2em;
   position: fixed;
   bottom: 0;
   left: 0;
-  @include size($menu-button-size);
-  border-bottom: $menu-button-size solid $tr-black;
-	border-right: $menu-button-size solid transparent;
-  color: $white;
-  font-size: 2em;
+  margin-left: -0.5em;
+  margin-bottom: -0.8em;
+  @include size(4em);
+  border-radius: 50%;
+  background-color: $black;
+  transition: all 0.2s ease-out;
   z-index: 1;
+
+  div {
+    border-bottom: 0.25em solid $white;
+    border-top: 0.25em solid $white;
+    height: 1em;
+    width: 1.5em;
+    position: relative;
+    margin: 1.5em auto;
+  }
+
+  &:hover {
+    transform: scale(1.15);
+  }
 }
 
 nav {

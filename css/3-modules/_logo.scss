@@ -14,8 +14,8 @@
   transition: all 0.3s ease-out;
   background: repeating-linear-gradient(
   45deg,
-  #F1ECD7,
-  #F1ECD7 10px,
+  $white,
+  $white 10px,
   transparent 10px,
   transparent 20px
   );
