@@ -1,9 +1,0 @@
-permalink: pretty
-
-sass:
-  sass_dir: ./css
-  style: compressed
-
-
-gems:
-  - jekyll-autoprefixer

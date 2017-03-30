@@ -1,51 +1,36 @@
----
----
 <!DOCTYPE html>
-<html lang="fr">
+<html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thierry Beauvais-Gentile</title>
-    <meta name="description" content="Jeune programmeur web Montréalais sensible au design et à l'affut des nouvelles technologies. I make websites">
-    <link rel="stylesheet" href="css/main.css" charset="utf-8">
-
-    <meta property="og:title" content="Thierry Beauvais-Gentile: Site Personnel" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thierrybeauvaisgentile.com" />
-    <meta property="og:image" content="https://thierrybeauvaisgentile.com/img/tbg.png" />
+    <title>thierrybgentile</title>
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet" />
+    <style media="screen">
+      body {
+        font-family: 'Anonymous Pro', monospace;
+        text-align: center;
+        padding: 40vh 0;
+        border: 1px black solid;
+        margin-top: 2vh;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        color: #4180AB;
+        font-size: 16px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        background-color: #4180AB;
+        color: #FFF;
+      }
+    </style>
   </head>
   <body>
-    <header>
-
-      <div class="title-box">
-
-        <h1>Thierry Beauvais-Gentile</h1>
-        <h2 style="display:none">Programmeur Web.</h2>
-        <p class="kicker">Aspirant programmeur front-end. Créateur web en devenir.</p>
-
-      </div>
-
-      <a href="#" class="logo">TBG</a>
-
-      <h3>Montréal, QC</h3>
-
-      <div class="social-buttons">
-        <a href="https://github.com/thierrybgentile" class="social-button">
-          {% include icons/github.html %}
-        </a>
-        <a href="http://codepen.io/thierrybgentile" class="social-button">
-          {% include icons/codepen.html %}
-        </a>
-        <a href="https://www.facebook.com/thierry.gentile" class="social-button">
-          {% include icons/facebook.html %}
-        </a>
-        <a href="https://twitter.com/thierrybgentile" class="social-button">
-          {% include icons/twitter.html %}
-        </a>
-      </div>
-    </header>
-    {% include nav.html %}
-    <script src="js/functions.js" charset="utf-8"></script>
-    <noscript>Le javascript est désactivé sur votre navigateur!</noscript>
+    <h1>thierrybgentile</h1>
+    <p><a href="https://twitter.com/thierrybgentile">twitter</a> <a href="https://github.com/thierrybgentile">github</a></p>
   </body>
 </html>
